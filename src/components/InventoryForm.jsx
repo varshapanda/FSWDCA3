@@ -10,16 +10,16 @@ const InventoryForm = () => {
         
         {/* TODO: Add a submit button */}
         <div>
-          <label> Name:</label>
-          <input type="text" placeholder="Enter the name"/> 
+          <label> Product Name:</label>
+          <input type="text" placeholder="Enter the Product name" required/> 
         </div>
         <div>
           <label> Quantity:</label>
-          <input type="number" placeholder="Enter the quantity"/> 
+          <input type="number" placeholder="Enter the quantity" required/> 
         </div>
         <div>
           <label>Price:</label>
-          <input type="number" placeholder="Enter the price"/> 
+          <input type="number" placeholder="Enter the price" required/> 
         </div>
 
         <button type="submit"> ADD ITEM </button>

@@ -6,7 +6,7 @@ const InventoryItem = ({ item }) => {
   return (
     <li className="inventory-item">
       {/* TODO: Use item props to show product name, quantity, and price */}
-      <p> <strong>Item name: </strong> {item.name} </p>
+      <p> <strong>Product name: </strong> {item.name} </p>
       <p> <strong>Quantity: </strong> {item.quantity} pcs</p>
       <p> <strong>Price: </strong> ${item.price}</p>
     </li>
